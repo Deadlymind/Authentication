@@ -172,3 +172,10 @@ dist/
 
 # Vite.js
 vite.config.js
+
+# React.js
+/build/
+/node_modules/
+/.pnp/
+.pnp.js
+

@@ -180,3 +180,13 @@ DJOSER = {
         'user_delete': 'djoser.serializers.UserDeleteSerializer',
     },
 }
+
+EMAIL_BACKEND = 'django.core.mail.backends.smtp.EmailBackend'
+EMAIL_HOST = env('EMAIL_HOST')
+EMAIL_US_TLS = True
+EMAIL_PORT = env('EMAIL_PORT')
+EMAIL_HOST_USER = env('EMAIL_HOST_USER')
+EMAIL_HOST_PASSWORD = env('EMAIL_HOST_PASSWORD')
+DEFAULT_FORM_EMAIL = "info@journal-bullet.com"
+DOMAIN = env('DOMAIN')
+SITE_NAME = "Journal Bullet"

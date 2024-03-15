@@ -29,3 +29,6 @@ class User(AbstractBaseUser, PermissionsMixin):
     @property
     def get_full_name(self):
         return f"{self.first_name} {self.last_name}"
+
+
+
